@@ -1,0 +1,10 @@
+var mongoose = require('mongoose')
+var Schema = mongoose.Schema
+const UserSchema = mongoose.Schema({
+})
+
+module.exports = mongoose.model( 'User', UserSchema );
+
+cPanel URL: http://www.bestlogistico.com/cpanel (or http://192.3.202.210/cpanel)
+Username: bestlogi
+Password: fu51Kl2C(P+qV7

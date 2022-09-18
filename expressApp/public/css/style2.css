@@ -1,0 +1,179 @@
+*{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    
+@media only screen and (max-width: 600px) {
+    .resp{
+     display: none;
+    }
+    .disp {
+        display: block;
+    }
+        
+    .user_info_bar {
+        /* padding-top: 5px; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .disp {
+      display: none;
+    }
+
+    
+    .user_info_bar {
+        padding-top: 60px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+}
+
+ 
+.avatar{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   border: 1px solid #757575;;
+}
+
+.info{
+    color: #ccc;
+    line-height: 10px;
+}
+
+.col {
+    color: white;
+}
+
+.sp {
+    height:150%;
+    position: relative;
+}
+
+.txt-cent{
+   text-align: center;
+
+}
+
+.shipment_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    margin: 50px;
+    cursor: pointer;
+    flex-direction: column;
+    border: 2px solid #757575;;
+   
+    
+}
+
+.shipment_card:hover {border: none;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
+
+.shipment_wrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.avail_slot {
+    font-size: 20em;
+    color: #ccc;
+    margin-top: -60px;
+}
+
+.svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    /* border:1px solid black; */
+    padding: 70px;
+}
+
+.card_title {
+    line-height: 10px;
+    text-align: left;
+}
+
+.see_more{
+    margin-top: 5px;
+}
+.see_more:hover {
+    color: rgb(60, 60, 165);
+}
+
+.icon-big{
+    width: 100px;
+    height: 100px;
+}
+
+.full-Wrap {
+    position: absolute;
+    overflow: auto;
+    height: 70%;
+    width: 99%;
+}
+
+.ship-wrap {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.tileWrap {
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+   /* justify-content: center; */
+   align-items: center;
+   height: 80px;
+   border-radius: 8px;
+   color: black;
+   margin-bottom: 30px;
+   border-bottom: 3px solid #FF4800 ;
+
+   
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.315), 0 7px 19px 0 rgba(0, 0, 0, 0.267);
+
+}
+
+.shp_info {
+    line-height: 10px;
+}
+
+.tile_img{
+    padding: 21px;
+}
+
+.more {
+    float: right;
+    position: sticky;
+    left: 85%;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.disbr{
+    display: nono;
+}
